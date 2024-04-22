@@ -348,6 +348,7 @@
   * imo 云办公室 get_file.php 远程命令执行漏洞
   * imo 云办公室 Imo_DownLoadUI.php 任意文件下载漏洞
   * JD-FreeFuck 后台命令执行漏洞
+  * Jeecg jeecgFormDemoController JNDI 代码执行漏洞 CVE-2023-49442
   * Jeecg Boot SSTI CVE 2023 4450
   * JeecgBoot 企业级低代码平台 qurestSql SQL注入漏洞 CVE-2023-1454
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
@@ -359,6 +360,7 @@
   * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
   * Kibana 本地文件包含漏洞 CVE-2018-17246
   * kkFileView getCorsFile 任意文件读取漏洞 CVE-2021-43734
+  * kkFileView ZipSlip 远程命令执行漏洞
   * Konga 普通用户越权获取管理员权限漏洞
   * KubeOperator kubeconfig 未授权访问漏洞 CVE-2023-22480
   * KubePi JwtSigKey 登陆绕过漏洞 CVE-2023-22463
@@ -898,18 +900,18 @@
   * H3C SecParh堡垒机 get_detail_view.php 任意用户登录漏洞
   * H3C SecPath下一代防火墙 任意文件下载漏洞
   * H3C 企业路由器（ER、ERG2、GR系列）任意用户登录漏洞
-  * Hikvision DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
-  * Hikvision iVMS-8700综合安防管理平台 download 任意文件下载漏洞
-  * Hikvision iVMS-8700综合安防管理平台 upload.action 任意文件上传漏洞
-  * Hikvision 流媒体管理服务器 user.xml 账号密码泄漏漏洞
-  * Hikvision 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544
-  * Hikvision 视频编码设备接入网关 $DATA 任意文件读取
-  * Hikvision 视频编码设备接入网关 showFile.php 任意文件下载漏洞
-  * Hikvision 综合安防管理平台 applyCT Fastjson远程命令执行漏洞
-  * Hikvision 综合安防管理平台 env 信息泄漏漏洞
-  * Hikvision 综合安防管理平台 files 任意文件上传漏洞
-  * Hikvision 综合安防管理平台 report 任意文件上传漏洞
-  * Hikvision 联网网关 downdb.php 任意文件读取漏洞
+  * HIKVISION DSIDSIPC 等设备 远程命令执行漏洞 CVE-2021-36260
+  * HIKVISION iVMS-8700综合安防管理平台 download 任意文件下载漏洞
+  * HIKVISION iVMS-8700综合安防管理平台 upload.action 任意文件上传漏洞
+  * HIKVISION 流媒体管理服务器 user.xml 账号密码泄漏漏洞
+  * HIKVISION 流媒体管理服务器 后台任意文件读取漏洞 CNVD-2021-14544
+  * HIKVISION 视频编码设备接入网关 $DATA 任意文件读取
+  * HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
+  * HIKVISION 综合安防管理平台 applyCT Fastjson远程命令执行漏洞
+  * HIKVISION 综合安防管理平台 env 信息泄漏漏洞
+  * HIKVISION 综合安防管理平台 files 任意文件上传漏洞
+  * HIKVISION 综合安防管理平台 report 任意文件上传漏洞
+  * HIKVISION 联网网关 downdb.php 任意文件读取漏洞
   * Huawei DG8045 deviceinfo 信息泄漏漏洞
   * Huawei HG659 lib 任意文件读取漏洞
   * iKuai 后台任意文件读取漏洞
