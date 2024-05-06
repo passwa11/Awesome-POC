@@ -45,8 +45,8 @@
   * Fuel CMS 1.4.1 远程代码执行漏洞
   * Joomla 3.4.5 反序列化漏洞 CVE-2015-8562
   * Joomla 3.7.0 SQL注入漏洞 CVE-2017-8917)
+  * Joomla application 权限绕过漏洞 CVE-2023-23752
   * Joomla 目录遍历及远程代码执行漏洞 CVE-2021-23132
-  * Joomla权限绕过漏洞 CVE-2023-23752
   * JunAms内容管理系统文件上传漏洞 CNVD-2020-24741
   * Ke361 AuthManagerController.class.php 后台SQL注入漏洞
   * Ke361 DistrictController.class.php 后台SQL注入漏洞 CNVD-2021-25002
@@ -268,8 +268,7 @@
   * Atlassian Confluence OGNL表达式注入命令执行漏洞 CVE-2022-26134
   * Atlassian Confluence OGNL表达式注入命令执行漏洞 CVE-2023-22527
   * Atlassian Confluence preview SSTI模版注入漏洞 CVE-2019-3396
-  * Atlassian Confluence server-info.action 登陆绕过漏洞 CVE-2023-22515
-  * Atlassian Confluence 属性覆盖导致权限绕过漏洞 CVE-2023-22515
+  * Atlassian Confluence server-info.action 属性覆盖导致权限绕过漏洞 CVE-2023-22515
   * Atlassian Confluence 敏感信息泄露 CVE-2021-26085
   * Atlassian Confluence 路径穿越与命令执行漏洞 CVE-2019-3396
   * Atlassian Jira cfx 任意文件读取漏洞 CVE-2021-26086
@@ -354,7 +353,7 @@
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
   * Jetbrains TeamCity 认证绕过导致远程命令执行漏洞 CVE-2023-42793
-  * Joomla application 未授权访问漏洞 CVE-2023-23752
+  * JimuReport FreeMarker 服务端模板注入命令执行 CVE-2023-4450
   * JumpServer 未授权接口 远程命令执行漏洞
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
@@ -371,14 +370,13 @@
   * Magento 2.2 SQL注入漏洞
   * MessageSolution 邮件归档系统EEA 信息泄露漏洞 CNVD-2021-10543
   * Metabase geojson 任意文件读取漏洞 CVE-2021-41277
-  * Metabase validate 远程命令执行漏洞 CVE-2023-38646
+  * Metabase 未授权 JDBC 远程代码执行漏洞 CVE-2023-38646
   * Metabase任意文件读取漏洞 CVE-2021-41277
-  * Metabase未授权JDBC远程代码执行漏洞 CVE-2023-38646
   * MeterSphere customMethod 远程命令执行漏洞
   * Metersphere file 任意文件读取漏洞 CVE-2023-25573
   * MeterSphere v1.15.4 认证用户SQL注入漏洞 CVE-2021-45788
   * MeterSphere 插件接口未授权访问及远程代码执行
-  * MinIO集群模式信息泄露漏洞 CVE-2023-28432
+  * MinIO 集群模式信息泄露漏洞 CVE-2023-28432
   * MKdocs 任意文件读取漏洞 CVE-2021-40978
   * MLflow get-artifact 任意文件读取漏洞 CVE-2023-1177
   * Mojarra JSF ViewState 反序列化漏洞
@@ -686,17 +684,17 @@
   * VMware Workspace ONE Access SSTI漏洞 CVE-2022-22954
   * VoIPmonitor 远程命令执行漏洞 CVE-2021-30461
   * Wazuh Manager 代码执行漏洞 CVE-2021-26814
-  * Weblogic  10.3.6 'wls-wsat' XMLDecoder 反序列化漏洞 CVE-2017-10271
+  * Weblogic  10.3.6 wls-wsat XMLDecoder 反序列化漏洞 CVE-2017-10271
   * Weblogic LDAP 远程代码执行漏洞 CVE-2021-2109
   * WebLogic Local File Inclusion 本地文件包含漏洞 CVE-2022-21371
   * Weblogic Server远程代码执行漏洞 CVE-2020-14756
   * WebLogic T3 反序列化漏洞 CVE-2016-3510
   * Weblogic uddiexplorer SSRF漏洞 CVE-2014-4210
   * Weblogic WLS Core Components 反序列化命令执行漏洞 CVE-2018-2628
+  * Weblogic XMLDecoder 反序列化远程代码执行漏洞 CVE-2019-2725
   * Weblogic XMLDecoder 远程代码执行漏洞 CVE-2017-10271
   * Weblogic 二次反序列化漏洞 CVE-2021-2394
   * Weblogic 任意文件上传漏洞 CVE-2018-2894
-  * Weblogic 反序列化远程代码执行漏洞 CVE-2019-2725
   * Weblogic 弱口令+前台任意文件读取
   * Weblogic 未授权远程代码执行漏洞 CVE-2023-21839
   * Weblogic 管理控制台未授权远程命令执行漏洞 CVE-2020-14882+CVE-2020-14883
@@ -710,7 +708,6 @@
   * K8s API Server未授权命令执行
   * K8s etcd未授权访问
   * MinIO SSRF 漏洞 CVE-2021-21287
-  * MinIO verify 敏感信息泄漏漏洞 CVE-2023-28432
   * Nacos secret.key 默认密钥 未授权访问漏洞
   * Nacos 未授权访问漏洞
   * Nacos 认证绕过漏洞 CVE-2021-29441
