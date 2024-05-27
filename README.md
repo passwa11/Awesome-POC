@@ -248,6 +248,7 @@
   * Adobe ColdFusion 远程代码执行漏洞 CVE-2021-21087
   * Afterlogic Aurora & WebMail Pro 任意文件读取 CVE-2021-26294
   * Afterlogic Aurora & WebMail Pro 文件上传漏洞 CVE-2021-26293
+  * AJ-Report 认证绕过与远程代码执行漏洞 CNVD-2024-15077
   * Alibaba AnyProxy fetchBody 任意文件读取漏洞
   * Alibaba Canal config 云密钥信息泄露漏洞
   * Alibaba otter manager分布式数据库同步系统信息泄漏 CNVD-2021-16592
@@ -384,6 +385,7 @@
   * Nexus Repository Manager 3 extdirect 远程命令执行漏洞 CVE-2019-7238
   * Nexus Repository Manager 3 extdirect 远程命令执行漏洞 CVE-2020-10204
   * Nexus Repository Manager 3 group 远程命令执行漏洞 CVE-2020-10199
+  * Nexus Repository Manager 3 未授权目录穿越漏洞 CVE-2024-4956
   * Nexus Repository Manger change-password 低权限修改管理员密码漏洞 CVE-2020-11444
   * nginxWebUI cmdOver 后台命令执行漏洞
   * nginxWebUI runCmd 远程命令执行漏洞
@@ -393,6 +395,7 @@
   * ntopng权限绕过漏洞 CVE-2021-28073
   * OfficeWeb365 SaveDraw 任意文件上传漏洞
   * OneBlog 小于v2.2.1 远程命令执行漏洞
+  * PDF.js 任意 JavaScript 代码执行 CVE-2024-4367
   * pgAdmin ≤ 6.16 无授权远程命令执行漏洞 CVE-2022-4223
   * pgAdmin ≤ 7.6 后台远程命令执行漏洞 CVE-2023-5002
   * phpMyAdmin后台SQL注入 CVE-2020-26935
@@ -778,6 +781,7 @@
   * PHPUnit eval-stdin.php 远程命令执行漏洞 CVE-2017-9841
   * Rails Accept 任意文件读取漏洞 CVE-2019-5418
   * Rails sprockets 任意文件读取漏洞 CVE-2018-3760
+  * Spring Boot 目录遍历 CVE-2021-21234
   * Spring Cloud Config 目录遍历漏洞 CVE-2019-3799
   * Spring Cloud Function SPEL 远程命令执行漏洞
   * Spring Cloud Function SpEL表达式命令注入 CVE-2022-22963

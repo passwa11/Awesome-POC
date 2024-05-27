@@ -23,6 +23,12 @@ docker-compose up -d
 
 ## 漏洞复现
 
+### 查看容器
+
+```
+http://your-ip:2375/containers/json
+```
+
 ### 执行命令
 
 列出所有镜像：
@@ -131,4 +137,3 @@ if r.json:
         r = requests.post(url, json=json.loads(post_json))
         print(r)
 ```
-
