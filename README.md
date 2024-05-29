@@ -808,7 +808,12 @@
   * Java RMI Registry 反序列化漏洞(=jdk8u111)
   * Java RMI Registry 反序列化漏洞(jdk8u232_b09)
   * JDWP 调试接口 RCE 漏洞
-  * PHP zerodium后门漏洞
+  * PHP 8.1.0-dev 开发版本 zerodium 后门漏洞
+  * PHP imap 远程命令执行漏洞 CVE-2018-19518
+  * PHP XDebug 远程调试模式导致代码执行
+  * PHP 利用 GNU C Iconv 将文件读取提升至 RCE CVE-2024-2961
+  * PHP 利用 phpinfo 包含临时文件 getshell
+  * PHP 环境 XML外部实体注入漏洞（XXE）
   * PHP-FPM Fastcgi 未授权访问漏洞
   * PHP-FPM 远程代码执行漏洞 CVE-2019-11043
   * Python PIL 远程命令执行漏洞 CVE-2017-8291
