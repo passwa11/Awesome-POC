@@ -335,6 +335,7 @@
   * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
   * Grafana管理后台SSRF
   * H3C IMC dynamiccontent.properties.xhtm 远程命令执行
+  * Harbor 公开镜像仓库未授权访问 CVE-2022-46463
   * Harbor 未授权创建管理员漏洞 CVE-2019-16097
   * HTTPoxy CGI 漏洞 CVE-2016-5385
   * Hue 后台编辑器命令执行漏洞
@@ -410,6 +411,7 @@
   * ShopXO 任意文件读取漏洞 CNVD-2021-15822
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
+  * ShowDoc 前台任意文件上传 CNVD-2020-26585
   * ShowDoc 前台文件上传漏洞
   * Smartbi RMIServlet 登陆绕过漏洞
   * Smartbi 远程命令执行漏洞
@@ -586,7 +588,7 @@
   * Apache SkyWalking 7.0.0 graphql SQL注入漏洞 CVE-2020-9483
   * Apache Skywalking 8.3.0 graphql SQL注入漏洞
   * Apache Solr JMX服务 RCE CVE-2019-12409
-  * Apache Solr Log4j组件 远程命令执行漏洞
+  * Apache Solr Log4j 组件 远程命令执行漏洞
   * Apache Solr RCE 未授权上传漏洞 CVE-2020-13957
   * Apache Solr RCE 远程命令执行漏洞 CVE-2017-12629
   * Apache Solr RemoteStreaming 文件读取与SSRF漏洞

