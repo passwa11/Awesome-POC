@@ -31,7 +31,7 @@ Vulhub 执行如下命令启动一个 kkFileView 3.4.0 服务器：
 docker compose up -d
 ```
 
-服务启动后，访问`http://your-ip:8012`即可查看到首页。
+服务启动后，访问 `http://your-ip:8012` 即可查看到首页。
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419210738761.png)
 
@@ -63,11 +63,11 @@ if __name__ == "__main__":
 python poc.py
 ```
 
-然后，使用 kkFileView 服务上传`test.zip`：
+然后，使用 kkFileView 服务上传 `test.zip`：
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419212103511.png)
 
-点击`test.zip`的“预览”按钮，可以看到 zip 压缩包中的文件列表：
+点击 `test.zip` 的“预览”按钮，可以看到 zip 压缩包中的文件列表：
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419212029664.png)
 
@@ -75,11 +75,11 @@ python poc.py
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419212226172.png)
 
-点击`sample.odt`的“预览”按钮，触发代码执行漏洞：
+点击 `sample.odt` 的“预览”按钮，触发代码执行漏洞：
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419212315976.png)
 
-可见，`touch /tmp/success`已经成功被执行：
+可见，`touch /tmp/success` 已经成功被执行：
 
 ![](images/kkFileView%20ZipSlip%20远程命令执行漏洞/image-20240419212427494.png)
 
