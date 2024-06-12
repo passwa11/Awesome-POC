@@ -187,6 +187,7 @@
   * 用友时空 KSOA V9.0 文件上传漏洞
   * 红帆OA ioFileExport.aspx 任意文件读取漏洞
   * 致翔OA msglog.aspx SQL注入漏洞
+  * 致远 OA 未授权短信验证码绕过重置密码漏洞
   * 致远OA A6 config.jsp 敏感信息泄漏漏洞
   * 致远OA A6 createMysql.jsp 数据库敏感信息泄露
   * 致远OA A6 DownExcelBeanServlet 用户敏感信息泄露
@@ -755,6 +756,7 @@
   * Apache OfBiz 反序列化命令执行漏洞 CVE-2020-9496
   * Apache OfBiz 反序列化命令执行漏洞 CVE-2023-49070
   * Apache OfBiz 服务器端模板注入 SSTI
+  * Apache OFBiz 目录遍历致代码执行漏洞 CVE-2024-36104
   * Apache OfBiz 远程代码执行 RCE
   * Apache OfBiz 鉴权绕过导致命令执行 CVE-2023-51467
   * Apache Spark create 未授权访问漏洞
@@ -811,6 +813,7 @@
   * Java RMI Registry 反序列化漏洞(jdk8u232_b09)
   * JDWP 调试接口 RCE 漏洞
   * PHP 8.1.0-dev 开发版本 zerodium 后门漏洞
+  * PHP CGI Windows 平台远程代码执行漏洞 CVE-2024-4577
   * PHP imap 远程命令执行漏洞 CVE-2018-19518
   * PHP XDebug 远程调试模式导致代码执行
   * PHP 利用 GNU C Iconv 将文件读取提升至 RCE CVE-2024-2961
