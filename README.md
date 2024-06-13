@@ -358,6 +358,7 @@
   * Jetbrains TeamCity 认证绕过导致远程命令执行漏洞 CVE-2023-42793
   * JimuReport FreeMarker 服务端模板注入命令执行 CVE-2023-4450
   * JumpServer 未授权接口 远程命令执行漏洞
+  * JumpServer 远程代码执行漏洞 CVE-2024-29201&CVE-2024-29202
   * Jupyter Notebook 未授权访问远程命令执行漏洞
   * Kibana 原型链污染导致任意代码执行漏洞 CVE-2019-7609
   * Kibana 本地文件包含漏洞 CVE-2018-17246
