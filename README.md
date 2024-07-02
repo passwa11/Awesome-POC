@@ -875,6 +875,7 @@
   * ACTI 视频监控 images 任意文件读取漏洞
   * Amcrest IP Camera Web Sha1Account1 账号密码泄漏漏洞 CVE-2017-8229
   * Apache APISIX Dashboard API权限绕过导致RCE CVE-2021-45232
+  * Apache APISIX jwt-auth 插件存在 JWT sceret 泄漏 CVE-2022-29266
   * Apache APISIX 默认密钥漏洞 CVE-2020-13945
   * Arcadyan固件 cgi_i_filter.js 配置信息泄漏漏洞 CVE-2021-20092
   * Arcadyan固件 image 路径遍历漏洞 CVE-2021-20090
