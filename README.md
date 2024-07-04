@@ -411,6 +411,7 @@
   * Scrapyd 未授权访问漏洞
   * Seo-Panel 4.8.0 反射型XSS漏洞 CVE-2021-3002
   * ShopXO 任意文件读取漏洞 CNVD-2021-15822
+  * ShowDoc 3.2.5 SQL注入漏洞
   * ShowDoc AdminUpdateController.class.php 任意文件上传漏洞 CVE-2021-36440
   * ShowDoc PageController.class.php 任意文件上传漏洞
   * ShowDoc 前台任意文件上传 CNVD-2020-26585
@@ -617,6 +618,7 @@
   * Consul Docker images 空密码登录漏洞 CVE-2020-29564
   * Consul Service API远程命令执行漏洞
   * GeoServer OGC Filter SQL注入漏洞 CVE-2023-25157
+  * GeoServer 属性名表达式前台代码执行漏洞 CVE-2024-36401
   * GoAhead Server 环境变量注入 CVE-2021-42342
   * GoAhead Server 远程命令执行漏洞 CVE-2017-17562
   * GoCD plugin 任意文件读取漏洞 CVE-2021-43287
