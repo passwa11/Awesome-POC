@@ -718,6 +718,7 @@
   * K8s etcd未授权访问
   * MinIO SSRF 漏洞 CVE-2021-21287
   * Nacos secret.key 默认密钥 未授权访问漏洞
+  * Nacos 未授权接口命令执行漏洞 CVE-2021-29442
   * Nacos 未授权访问漏洞
   * Nacos 认证绕过漏洞 CVE-2021-29441
   * Nacos 集群 Raft 反序列化漏洞 CNVD-2023-45001
