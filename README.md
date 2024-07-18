@@ -356,6 +356,7 @@
   * Jellyfin RemoteImageController.cs SSRF漏洞 CVE-2021-29490
   * Jellyfin 任意文件读取漏洞 CVE-2021-21402
   * Jetbrains TeamCity 认证绕过导致远程命令执行漏洞 CVE-2023-42793
+  * JetBrains TeamCity 身份验证绕过漏洞  CVE-2024-27198
   * JimuReport FreeMarker 服务端模板注入命令执行 CVE-2023-4450
   * JumpServer 未授权接口 远程命令执行漏洞
   * JumpServer 远程代码执行漏洞 CVE-2024-29201&CVE-2024-29202
