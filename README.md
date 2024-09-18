@@ -175,7 +175,6 @@
   * 用友 NC Cloud jsinvoke 任意文件上传漏洞
   * 用友 NC Cloud 远程代码执行漏洞 CNVD-C-2023-76801
   * 用友 NC FileReceiveServlet 反序列化RCE漏洞
-  * 用友 NC NCFindWeb 任意文件读取漏洞
   * 用友 NC XbrlPersistenceServlet反序列化
   * 用友 NCCloud FS文件管理SQL注入
   * 用友 U8 cloud upload.jsp 任意文件上传漏洞
@@ -287,6 +286,7 @@
   * AVCON6 系统管理平台 org_execl_download.action 任意文件下载漏洞
   * Cacti SQL 注入漏洞 CVE-2020-14295
   * Cacti 前台命令注入漏洞 CVE-2022-46169
+  * CactiEZ weathermap 插件任意文件写入漏洞
   * Casbin get-users 账号密码泄漏漏洞
   * Casdoor static 任意文件读取漏洞
   * Celery 4.0 Redis未授权访问+Pickle反序列化利用
@@ -757,11 +757,14 @@
   * Apache Flink 目录遍历漏洞 CVE-2020-17519
   * Apache OF Biz RMI Bypass RCE CVE 2021 29200
   * Apache OFBiz RMI反序列化漏洞 CVE-2021-26295
+  * Apache OFBiz SSRF 和远程代码执行漏洞 CVE-2024-45507
   * Apache OFBiz 反序列化 CVE-2021-30128
   * Apache OfBiz 反序列化命令执行漏洞 CVE-2020-9496
   * Apache OfBiz 反序列化命令执行漏洞 CVE-2023-49070
   * Apache OfBiz 服务器端模板注入 SSTI
   * Apache OFBiz 目录遍历致代码执行漏洞 CVE-2024-36104
+  * Apache OFBiz 身份验证绕过导致远程代码执行 CVE-2024-38856
+  * Apache OFBiz 身份验证绕过导致远程代码执行 CVE-2024-45195
   * Apache OfBiz 远程代码执行 RCE
   * Apache OfBiz 鉴权绕过导致命令执行 CVE-2023-51467
   * Apache Spark create 未授权访问漏洞
@@ -1062,7 +1065,7 @@
   * 锐捷 EG易网关 phpinfo.view.php 信息泄露漏洞
   * 锐捷 EG易网关 管理员账号密码泄露漏洞
   * 锐捷 ISG 账号密码泄露漏洞
-  * 锐捷 NBR 1300G路由器 越权CLI命令执行漏洞
+  * 锐捷 NBR 1300G 路由器 越权 CLI 命令执行漏洞
   * 锐捷 NBR 路由器 fileupload.php 任意文件上传漏洞
   * 锐捷 NBR路由器 远程命令执行漏洞 CNVD-2021-09650
   * 锐捷 RG-UAC 账号密码信息泄露 CNVD-2021-14536
