@@ -743,6 +743,7 @@
   * Microsoft Outlook 权限提升漏洞 CVE-2023-23397
   * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
   * NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056
+  * OpenPrinting Cups-Browsed PDD FoomaticRIPCommandLine 参数导致远程命令执行漏洞CVE-2024-47177
   * Samba 远程命令执行漏洞 CVE-2017-7494
   * Ueditor 编辑器漏洞总结
   * Windows Chrome 远程命令执行漏洞
