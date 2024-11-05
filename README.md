@@ -332,8 +332,9 @@
   * Go-fastdfs GetClientIp 未授权访问漏洞
   * Go-fastdfs upload 任意文件上传漏洞 CVE-2023-1800
   * Gogs 任意用户登录漏洞 CVE-2018-18925
+  * Grafana 8.x 插件模块目录穿越漏洞 CVE-2021-43798
   * Grafana mysql 后台任意文件读取漏洞 CVE-2019-19499
-  * Grafana plugins 任意文件读取漏洞 CVE-2021-43798
+  * Grafana SQL 表达式远程代码执行漏洞 CVE-2024-9264
   * Grafana管理后台SSRF
   * H3C IMC dynamiccontent.properties.xhtm 远程命令执行
   * Harbor 公开镜像仓库未授权访问 CVE-2022-46463
@@ -601,9 +602,9 @@
   * Apache Solr Velocity 注入远程命令执行漏洞 CVE-2019-17558
   * Apache Solr XML 实体注入漏洞 CVE-2017-12629
   * Apache Solr 代码执行漏洞 CNVD-2023-27598
+  * Apache Solr 认证绕过漏洞 CVE-2024-45216
   * Apache Solr 远程命令执行漏洞 CVE-2017-12629
   * Apache Solr 远程命令执行漏洞 CVE-2019-0193
-  * Apache Solr 远程执行漏洞 CVE-2019-0193
   * Apache SSI 远程命令执行漏洞
   * Apache Tomcat AJP 文件包含漏洞 CVE-2020-1938
   * Apache Tomcat PUT方法任意写文件漏洞 CVE-2017-12615
@@ -683,7 +684,6 @@
   * Struts2 S2-061 远程代码执行漏洞 CVE-2020-17530
   * Struts2 S2-062 远程代码执行漏洞 CVE-2021-31805
   * Supervisord 远程命令执行漏洞 CVE-2017-11610
-  * Tomcat PUT方法任意写文件漏洞 CVE-2017-12615
   * Tomcat8 弱口令+后台getshell漏洞
   * uWSGI PHP目录穿越漏洞 CVE-2018-7490
   * uWSGI 未授权访问漏洞
@@ -743,7 +743,7 @@
   * Microsoft Outlook 权限提升漏洞 CVE-2023-23397
   * Microsoft Word 远程代码执行漏洞 CVE-2023-21716
   * NVIDIA GPU显示驱动程序 信息泄露 CVE-2021-1056
-  * OpenPrinting Cups-Browsed PDD FoomaticRIPCommandLine 参数导致远程命令执行漏洞CVE-2024-47177
+  * OpenPrinting Cups-Browsed PDD FoomaticRIPCommandLine 参数导致远程命令执行漏洞 CVE-2024-47177
   * Samba 远程命令执行漏洞 CVE-2017-7494
   * Ueditor 编辑器漏洞总结
   * Windows Chrome 远程命令执行漏洞
